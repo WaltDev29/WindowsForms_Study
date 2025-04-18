@@ -152,14 +152,14 @@ namespace _0416_PositionAssign
         public void movePlayerUp()
         {
             int y = lblPlayer.Location.Y;
-            if (y <= 0) return;
+            if (y <= 70) return;
             y -= 70;
             lblPlayer.Location = new Point(lblPlayer.Location.X, y);
         }
         public void movePlayerDown()
         {
             int y = lblPlayer.Location.Y;
-            if (y >= 420) return;
+            if (y >= 490) return;
             y += 70;
             lblPlayer.Location = new Point(lblPlayer.Location.X, y);
         }

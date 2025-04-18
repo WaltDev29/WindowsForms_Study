@@ -110,6 +110,7 @@ namespace _0416_PositionAssign
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("굴림", 20F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Location = new System.Drawing.Point(-12, 320);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(709, 27);
@@ -121,6 +122,7 @@ namespace _0416_PositionAssign
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("굴림", 20F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(-12, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(709, 27);
@@ -132,6 +134,7 @@ namespace _0416_PositionAssign
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("굴림", 20F);
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label3.Location = new System.Drawing.Point(-15, 390);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(709, 27);
@@ -143,6 +146,7 @@ namespace _0416_PositionAssign
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("굴림", 20F);
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Location = new System.Drawing.Point(-7, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(709, 27);
@@ -154,6 +158,7 @@ namespace _0416_PositionAssign
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("굴림", 20F);
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label5.Location = new System.Drawing.Point(-7, 250);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(709, 27);
@@ -165,6 +170,7 @@ namespace _0416_PositionAssign
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("굴림", 20F);
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label6.Location = new System.Drawing.Point(-15, 460);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(709, 27);
@@ -177,9 +183,9 @@ namespace _0416_PositionAssign
             this.lblScore.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblScore.Location = new System.Drawing.Point(515, 13);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(119, 27);
+            this.lblScore.Size = new System.Drawing.Size(136, 27);
             this.lblScore.TabIndex = 15;
-            this.lblScore.Text = "Score : ";
+            this.lblScore.Text = "Score : 0";
             // 
             // lblTime
             // 
@@ -196,7 +202,7 @@ namespace _0416_PositionAssign
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(684, 531);
+            this.ClientSize = new System.Drawing.Size(684, 536);
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.lblScore);
             this.Controls.Add(this.pictureBox1);
