@@ -22,9 +22,15 @@ namespace _0416_PositionAssign
         // 시작 버튼 클릭
         private void btnStart_Click(object sender, EventArgs e)
         {
-            if (form != null) return;
-            form = new Form2();
-            form.Show();
+            if (form == null || form.IsDisposed)
+            {
+                form = new Form2(this);
+                form.Show();
+            }
+            else
+            {
+                form.Activate();
+            }
         }
 
         // 종료 버튼 클릭

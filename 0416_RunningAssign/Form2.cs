@@ -13,9 +13,12 @@ namespace _0416_PositionAssign
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        Form parentForm;
+        public Form2(Form parentForm)
         {
             InitializeComponent();
+            this.parentForm = parentForm;
+
         }
 
         // 3초 후 게임 시작
@@ -124,7 +127,11 @@ namespace _0416_PositionAssign
                 picCoin.Location = new Point(631, 210);
                 lblTime.Text = "Time : 00 : 00";
             }
-            else this.Close();
+            else
+            {
+                this.Close();
+                parentForm.Close();
+            } 
         }
 
         bool blink = false;
