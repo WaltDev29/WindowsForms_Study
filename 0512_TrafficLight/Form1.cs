@@ -8,12 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
 
 namespace _0512_TrafficLight
 {
     public partial class Form1 : Form
-    {
+    {                
         public Form1()
         {
             InitializeComponent();
@@ -21,8 +20,6 @@ namespace _0512_TrafficLight
             picBox_player.BackColor = Color.Transparent;
             picBox_car.BackColor = Color.Transparent;
             picBox_title.BackColor = Color.Transparent;
-            SoundPlayer player = new SoundPlayer("bgm.mp3");
-            player.PlayLooping();
         }
         int sec = 0;
         int state = 0;  // 0 : 빨강, 1: 주황, 2 : 초록
