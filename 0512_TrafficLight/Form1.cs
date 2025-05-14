@@ -21,8 +21,8 @@ namespace _0512_TrafficLight
             picBox_player.BackColor = Color.Transparent;
             picBox_car.BackColor = Color.Transparent;
             picBox_title.BackColor = Color.Transparent;
-            SoundPlayer player = new SoundPlayer("bgm.mp3");
-            player.PlayLooping();
+            //SoundPlayer player = new SoundPlayer("bgm.mp3");
+            //player.PlayLooping();
         }
         int sec = 0;
         int state = 0;  // 0 : 빨강, 1: 주황, 2 : 초록
