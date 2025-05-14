@@ -14,8 +14,9 @@ namespace _0514_ImgTest
     {
         public Form1()
         {
-            InitializeComponent();            
-            pictureBox2.ImageLocation = "Images/guy_right.png";
+            InitializeComponent();
+            //pictureBox2.ImageLocation = "Images/guy_right.png";
+            //pictureBox2.Image = Properties.Resources.cross;
         }
     }
 }
