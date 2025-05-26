@@ -33,6 +33,10 @@
 
 <br>
 
+⚠️ .sln, .csproj, .resx, .config 등 Visual Studio에서 자동 생성된 파일은 생략하였습니다.
+
+<br>
+
 ## 주요 클래스
 
 ### **`Human`**
