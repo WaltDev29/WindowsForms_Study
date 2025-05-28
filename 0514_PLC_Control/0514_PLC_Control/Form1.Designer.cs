@@ -30,22 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title9 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.btn_mvForward = new System.Windows.Forms.Button();
             this.btn_mvBackward = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.picBox_cylinder = new System.Windows.Forms.PictureBox();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lbl_power = new System.Windows.Forms.Label();
             this.picBox_mode = new System.Windows.Forms.PictureBox();
             this.lblMode = new System.Windows.Forms.Label();
-            this.picBox_OnOff = new System.Windows.Forms.PictureBox();
             this.lblSens = new System.Windows.Forms.Label();
+            this.picBox_OnOff = new System.Windows.Forms.PictureBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.lbl_power = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_cylinder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -97,64 +97,64 @@
             this.chart1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.chart1.BorderSkin.BackColor = System.Drawing.Color.White;
             this.chart1.BorderSkin.BorderColor = System.Drawing.Color.White;
-            chartArea9.AxisX.LabelStyle.ForeColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisX.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisX.MajorTickMark.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisX.MinorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisX.MinorTickMark.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisX.TitleForeColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisX2.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisX2.MajorGrid.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisX2.MajorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisX2.MinorGrid.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisX2.MinorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisX2.TitleForeColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisY.LabelStyle.ForeColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisY.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisY.MajorTickMark.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisY.MinorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea9.AxisY.MinorTickMark.LineColor = System.Drawing.Color.DimGray;
-            chartArea9.AxisY.TitleForeColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisY2.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea9.AxisY2.MajorGrid.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisY2.MajorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisY2.MinorGrid.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisY2.MinorTickMark.LineColor = System.Drawing.Color.White;
-            chartArea9.AxisY2.TitleForeColor = System.Drawing.Color.Gainsboro;
-            chartArea9.BackColor = System.Drawing.Color.Black;
-            chartArea9.BackImageTransparentColor = System.Drawing.Color.White;
-            chartArea9.BackSecondaryColor = System.Drawing.Color.White;
-            chartArea9.BorderColor = System.Drawing.Color.White;
-            chartArea9.Name = "ChartArea1";
-            chartArea9.ShadowColor = System.Drawing.Color.White;
-            this.chart1.ChartAreas.Add(chartArea9);
+            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisX.LineColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisX.MinorTickMark.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisX.TitleForeColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisX2.LineColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisX2.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.MinorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.TitleForeColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisY.LineColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisY.MinorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea1.AxisY.MinorTickMark.LineColor = System.Drawing.Color.DimGray;
+            chartArea1.AxisY.TitleForeColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisY2.LineColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisY2.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.MajorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.MinorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.MinorTickMark.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.TitleForeColor = System.Drawing.Color.Gainsboro;
+            chartArea1.BackColor = System.Drawing.Color.Black;
+            chartArea1.BackImageTransparentColor = System.Drawing.Color.White;
+            chartArea1.BackSecondaryColor = System.Drawing.Color.White;
+            chartArea1.BorderColor = System.Drawing.Color.White;
+            chartArea1.Name = "ChartArea1";
+            chartArea1.ShadowColor = System.Drawing.Color.White;
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            legend9.BackColor = System.Drawing.Color.DimGray;
-            legend9.ForeColor = System.Drawing.Color.White;
-            legend9.Name = "Legend1";
-            this.chart1.Legends.Add(legend9);
+            legend1.BackColor = System.Drawing.Color.DimGray;
+            legend1.ForeColor = System.Drawing.Color.White;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 150);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series9.BorderWidth = 2;
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Color = System.Drawing.Color.Green;
-            series9.Legend = "Legend1";
-            series9.Name = "Status";
-            this.chart1.Series.Add(series9);
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Color = System.Drawing.Color.Green;
+            series1.Legend = "Legend1";
+            series1.Name = "Status";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(734, 300);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
-            title9.BackColor = System.Drawing.Color.Transparent;
-            title9.BorderWidth = 2;
-            title9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            title9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            title9.Name = "title";
-            title9.Text = "Status";
-            this.chart1.Titles.Add(title9);
+            title1.BackColor = System.Drawing.Color.Transparent;
+            title1.BorderWidth = 2;
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            title1.Name = "title";
+            title1.Text = "Status";
+            this.chart1.Titles.Add(title1);
             // 
             // panel1
             // 
@@ -172,6 +172,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(734, 144);
             this.panel1.TabIndex = 6;
+            // 
+            // lbl_power
+            // 
+            this.lbl_power.AutoSize = true;
+            this.lbl_power.Font = new System.Drawing.Font("굴림", 15F, System.Drawing.FontStyle.Bold);
+            this.lbl_power.Location = new System.Drawing.Point(7, 60);
+            this.lbl_power.Name = "lbl_power";
+            this.lbl_power.Size = new System.Drawing.Size(51, 20);
+            this.lbl_power.TabIndex = 10;
+            this.lbl_power.Text = "전원";
             // 
             // picBox_mode
             // 
@@ -194,6 +204,15 @@
             this.lblMode.TabIndex = 6;
             this.lblMode.Text = "자동제어";
             // 
+            // lblSens
+            // 
+            this.lblSens.AutoSize = true;
+            this.lblSens.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold);
+            this.lblSens.Location = new System.Drawing.Point(655, 115);
+            this.lblSens.Name = "lblSens";
+            this.lblSens.Size = new System.Drawing.Size(0, 16);
+            this.lblSens.TabIndex = 3;
+            // 
             // picBox_OnOff
             // 
             this.picBox_OnOff.ImageLocation = "Images/btn_off.png";
@@ -205,29 +224,10 @@
             this.picBox_OnOff.TabStop = false;
             this.picBox_OnOff.Click += new System.EventHandler(this.picBox_OnOff_Click);
             // 
-            // lblSens
-            // 
-            this.lblSens.AutoSize = true;
-            this.lblSens.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold);
-            this.lblSens.Location = new System.Drawing.Point(655, 115);
-            this.lblSens.Name = "lblSens";
-            this.lblSens.Size = new System.Drawing.Size(0, 16);
-            this.lblSens.TabIndex = 3;
-            // 
             // timer2
             // 
             this.timer2.Interval = 900;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // lbl_power
-            // 
-            this.lbl_power.AutoSize = true;
-            this.lbl_power.Font = new System.Drawing.Font("굴림", 15F, System.Drawing.FontStyle.Bold);
-            this.lbl_power.Location = new System.Drawing.Point(7, 60);
-            this.lbl_power.Name = "lbl_power";
-            this.lbl_power.Size = new System.Drawing.Size(51, 20);
-            this.lbl_power.TabIndex = 10;
-            this.lbl_power.Text = "전원";
             // 
             // Form1
             // 

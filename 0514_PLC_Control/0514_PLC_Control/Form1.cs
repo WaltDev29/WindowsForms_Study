@@ -102,10 +102,10 @@ namespace _0514_PLC_Control
 
         // 센서, 그래프 (타이머)
         private void timer1_Tick(object sender, EventArgs e)
-        {
+        {            
             sens = 0;
             String curTime = DateTime.Now.ToString("yy-MM-dd HH:mm:ss");
-            control.ReadDeviceBlock2("X0", 1, out sens);            
+            control.ReadDeviceBlock2("X0", 1, out sens);                        
             // 그래프 기록, 텍스트 출력
             if (chart1.Series[0].Points.Count >= 30) chart1.Series[0].Points.RemoveAt(0);
             if ((sens & 0x04) != 0)
@@ -113,6 +113,8 @@ namespace _0514_PLC_Control
                 chart1.Series[0].Points.AddXY(curTime, 1);
                 lblSens.Text = "전진";
                 picBox_cylinder.ImageLocation = "Images/cylinderon.png";
+                short value = 0x01 << 2;
+                control.WriteDeviceBlock2("Y0", 1, ref value);
             }
             else if ((sens & 0x08) != 0)
             {
