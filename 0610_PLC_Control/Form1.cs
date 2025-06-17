@@ -86,13 +86,13 @@ namespace _0610_PLC_Control
         // 실린더 제어 함수
         private void cyl_mv(char target, char direction)
         {
-            int reset = 0;
+            ushort reset = 0;
             short mask = 0;
             plc.ReadDeviceBlock2("Y0", 1, out sens); 
             switch (target)
             {
                 case 'B':
-                    reset = 0b1111111111111001;
+                    reset = (ushort)(0b1111111111111001);
                     if (direction == 'F') mask = 0b0000000000000010;
                     else mask = 0b0000000000000100;
                         break;
